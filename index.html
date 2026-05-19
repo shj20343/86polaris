@@ -1,0 +1,68 @@
+```html
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나의 취미 공간</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- 내비게이션 -->
+    <nav class="bg-white shadow-sm p-4 sticky top-0 z-10">
+        <div class="max-w-4xl mx-auto flex justify-between items-center">
+            <h1 class="text-xl font-bold text-indigo-600">My Hobby Log</h1>
+            <ul class="flex space-x-4 text-sm font-medium">
+                <li><a href="#about" class="hover:text-indigo-600">소개</a></li>
+                <li><a href="#gallery" class="hover:text-indigo-600">갤러리</a></li>
+                <li><a href="#contact" class="hover:text-indigo-600">연락처</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 메인 섹션 -->
+    <main class="max-w-4xl mx-auto p-6 mt-10">
+        <!-- 소개 -->
+        <section id="about" class="mb-16">
+            <h2 class="text-3xl font-bold mb-4">환영합니다!</h2>
+            <p class="text-lg text-gray-600 leading-relaxed">
+                저는 사진 찍기, 요리, 그리고 여행을 사랑하는 평범한 사람입니다. 
+                이 공간은 제가 좋아하는 것들을 기록하고 공유하기 위해 만들었습니다.
+            </p>
+        </section>
+
+        <!-- 갤러리 -->
+        <section id="gallery" class="mb-16">
+            <h2 class="text-2xl font-bold mb-6">나의 기록들</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-white p-4 rounded-xl shadow-md">
+                    <div class="h-48 bg-gray-200 rounded-lg mb-4 flex items-center justify-center text-gray-500">[사진: 풍경 사진]</div>
+                    <h3 class="font-semibold text-lg">여행의 순간</h3>
+                    <p class="text-sm text-gray-500">지난 여름 다녀온 아름다운 바다.</p>
+                </div>
+                <div class="bg-white p-4 rounded-xl shadow-md">
+                    <div class="h-48 bg-gray-200 rounded-lg mb-4 flex items-center justify-center text-gray-500">[사진: 요리 사진]</div>
+                    <h3 class="font-semibold text-lg">맛있는 요리</h3>
+                    <p class="text-sm text-gray-500">정성 가득한 주말 브런치.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 연락처 -->
+        <section id="contact" class="bg-indigo-600 text-white p-8 rounded-3xl text-center">
+            <h2 class="text-2xl font-bold mb-4">함께 이야기 나눠요</h2>
+            <p class="mb-6">취미에 대해 궁금하거나 공유하고 싶은 이야기가 있다면 언제든 연락주세요!</p>
+            <a href="mailto:example@email.com" class="bg-white text-indigo-600 px-6 py-2 rounded-full font-bold hover:bg-gray-100 transition">이메일 보내기</a>
+        </section>
+    </main>
+
+    <!-- 푸터 -->
+    <footer class="text-center py-10 text-gray-400 text-sm">
+        &copy; 2026 My Hobby Log. All rights reserved.
+    </footer>
+
+</body>
+</html>
+
+```
